@@ -1,15 +1,15 @@
 body {
     width: 1000px;
     margin: auto;
-    background-image: url(../images/fond.png);
-    background-repeat: no-repeat;
-    background-size:initial;
 }
 
 table {
     margin-top: 60px;
     width: 100%;
-    border-collapse: collapse;  
+    border-collapse: collapse;
+    background-image: url(../images/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 td,
@@ -17,17 +17,19 @@ th {
     padding: 5px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.638);
+    background-color: rgba(255, 255, 255, 0.5);
 }
+
 .entete {
-    color:white;
-    background-color:rgb(70, 70, 70);
+    color: white;
+    background-color: rgb(70, 70, 70);
     height: 30px;
     font-size: 2em;
 }
+
 .heures {
-    width: 5%;
-    height: 10px;
+    font-size: 0.85em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .jours {
@@ -39,16 +41,37 @@ th {
     color: white;
     font-weight: bold;
     font-size: 1.25em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .liberationCommune {
     background-color: gray;
 }
 
-.KB2 {
+._420_KB1 {
+    background-color: dodgerblue;
+}
+
+._420_KB2 {
     background-color: blue;
 }
 
-.KBG {
+._420_KB3 {
+    background-color: cyan;
+}
+
+._420_KBG {
     background-color: green;
+}
+
+._201_KB1 {
+    background-color: orangered;
+}
+
+._340_101 {
+    background-color: magenta;
+}
+
+._601_101 {
+    background-color: goldenrod;
 }
